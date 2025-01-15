@@ -1,0 +1,13 @@
+{
+  "lastRun": "1736810890893-seed-posts.js",
+  "migrations": [
+    {
+      "title": "1736810607072-seed-users.js",
+      "timestamp": 1736909450571
+    },
+    {
+      "title": "1736810890893-seed-posts.js",
+      "timestamp": 1736909450597
+    }
+  ]
+}

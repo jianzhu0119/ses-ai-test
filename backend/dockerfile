@@ -1,0 +1,15 @@
+FROM node:20
+
+WORKDIR /app
+
+COPY backend/package*.json ./
+
+RUN npm install
+
+COPY backend/ ./
+
+ENV MONGO_URI=mongodb://mongo:27017/ses-ai-test 
+
+EXPOSE 8000
+
+CMD npx migrate up && npm run dev
